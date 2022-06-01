@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(224, 224, 7);
+}
+
+.pagina_invitacion{
+
+    padding:16px;
+    background-color: rgb(224, 224, 7);
+    font-family: Verdana;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+}
+
+
+.box{
+  
+    margin:10%;
+    padding:1.5em;
+    max-width:100%;
+    background-color: rgb(0, 193, 252);
+    text-align:center;
+    text-transform:uppercase;
+    padding-bottom:3em;
+}
+
+#imagen{
+
+    margin:2em;
+    width:50%;
+}
+
+#titulo{
+    margin:.5em;   
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    
+    .pagina_invitacion {
+
+        margin-left: 5%;
+    }
+}

@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(211, 240, 232);
+}
+
+.titulo_recetas {
+    background-color: rgb(6, 81, 82);
+    color: white;
+}
+
+.pagina_recetas {
+
+    font-family: Verdana;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+ 
+}
+
+#flan {
+
+    background-color: rgb(6, 81, 82);
+    color: white;
+}
+
+#arrozl{
+
+    background-color: rgb(6, 81, 82);
+    color: white;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    
+    .pagina_recetas {
+
+        margin-left: 5%;
+    }
+}

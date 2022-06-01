@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscador de Letras - JSModerno</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="lateral">
+
+        <div class="perfil">
+            <figure class="perfil__circulo">
+               <img src="/img/perfil.jpg" alt="" class="perfil__foto">
+            </figure>
+            <h1 class="perfil__nombres">Danny Josué Sosa Arroyo</h1>
+         </div>
+
+         <div class="informacion">
+            <h2 class="informacion__titulo">Desarrollador</h2>
+            <p class="informacion__descripcion">
+			</p>
+
+
+            <ul class="habilidades">
+                <li class="habilidad">Html 5</li>
+                <li class="habilidad">Css 3</li>
+                <li class="habilidad">JavaScript</li>
+            </ul>
+         </div>
+
+    </section>
+
+    <section class="songs">
+        <main id="contenido" class="contenido">
+            <h1>Letras de Canciones</h1>
+            <div class="contenedor">
+                    <div id="buscar" class="buscar">
+                            <h2>Búsqueda</h2>
+                            <p>Busca por artista y nombre:</p>
+                            <p><span> * </span>Obligatorio</p>
+                            <form action="#" id="formulario-buscar">
+                                <div class="input">
+                                    <label for="artista">Artista: <span>*</span></label>
+                                    <input type="text" id="artista" placeholder="Artista">
+                                </div>
+                                <div class="input">
+                                    <label for="cancion">Canción: <span>*</span></label>
+                                    <input type="text" id="cancion" placeholder="Nombre Canción">
+                                </div>
+
+                                <div class="input enviar">
+                                    <input type="submit" value="Buscar">
+                                </div>
+                            </form>
+                    </div>
+                    
+                    <div class="letra-resultado">
+                            <h2></h2>
+                            <div id="resultado"></div>
+                    </div>
+                    <div id="mensajes"></div>
+            </div>
+         </main>
+
+    </section>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
