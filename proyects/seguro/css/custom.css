@@ -117,19 +117,3 @@ body {
       -webkit-transform: scaleY(1.0);
     }
   }
-
-  .seguro {
-
-    margin-left: 25%;
-}
-
-
-@media only screen and (max-width: 1100px) {
-
-    
-  .seguro {
-
-        margin-left: 0;
-    }
-
-}
